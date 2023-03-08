@@ -1,0 +1,49 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10%;
+  padding-right: 10%;
+  min-height: 100vh;
+  max-height: 100%;
+  background-color: #161625;
+}
+
+.heading-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.logo-image {
+  height: 50px;
+  width: 50px;
+}
+
+.website-name {
+  color: #2cc6c6;
+  font-size: 16px;
+}
+
+.title {
+  color: #cbd5e1;
+  font-size: 20px;
+}
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.failure-image {
+  height: 20%;
+  width: 40%;
+}
+
+.failure-heading {
+  color: #ffffff;
+  font-size: 25px;
+}
